@@ -2,10 +2,10 @@
 $(document).ready(function(){
 // create an array of questions & answers
 var questionsAnswers = [
-	["What is the legal drinking age", "18",["21",true],"19", "22"],
-	["How many drinks can 1 guest have",["2",true],"10","3",["no limit",false]],
-	["Whats the garnish for the captins mule?",["lime wedge",false] ,["lemon wedge",false] ,["orange wedge",true],["no garnish",false]],
-	["How many ounces are in a glass of wine",["6",true],"9" ,"8", "5"],
+	["What is the legal drinking age",["18","A"],["21",true],["19","C"],["22","D"]],
+	["How many drinks can 1 guest have",["2",true],["10","B"],["3","C"],["no limit","D"]],
+	["Whats the garnish for the captins mule?",["lime wedge","A"] ,["lemon wedge","B"] ,["orange wedge",true],["no garnish","D"]],
+	["How many ounces are in a glass of wine",["6",true],["9","B"],["8","C"],["5","D"]],
 
 ];
 function checkAnswer(){
