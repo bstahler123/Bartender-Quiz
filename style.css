@@ -1,57 +1,65 @@
+.container-fluid {
+    background: linear-gradient( rgba(1, 1, 1, 0.6), rgba(1, 1, 1, 0.6)), url("http://wallpapercave.com/wp/ZEo5kVT.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 900px;
+}
 
- .container { 
- 	background-image: url("");
-	background-repeat: no-repeat;
-	background-size: cover;
+.questions {
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+}
 
-  }
- .questions { 
- 	margin-top: 30px;
- 	color: white;
- 	background-color: rgba(6,6,6,0.8);
- 	font-size: 30px;
- 	
- 	border: 3px solid rgb(239, 110, 24);
+.high-scores {
+    margin-left: 40px;
+}
 
-  }
-  .longhorn { 
-  	margin-top: 20px;
-  	border: 1px solid black;
+.show {
+    display: default;
+}
+.hide{
+  display: none;
+}
 
-   }
-
-  .btn-default{ 
-
-	width: 400px;
-	border: 3px solid black;
-	margin-top: 20px;
-	background-color: rgb(239, 110, 24);
-	color: white;
-	font-size: 18px;
-	border-radius: 10px;
-
-   }
-
-  .Timer {
-  	font-size: 20px; 
-  	background-color: rgba(6,6,6,0.8);
-  	color: white;
-  	padding:5px;
-  	margin-top: 20px;
-  	border-radius: 10px;
-  	border:3px solid rgb(239, 110, 24);
+.display-finished{
+  margin-top: 100px;
+}
 
 
-  }
-  h1 {
-  	text-align: center; 
-  	font-size: 24px; 
-  	background-color: white;
-  	color: orange;
-  }
+.btn-default {
+    width: 600px;
+    margin-top: 20px;
+    background: linear-gradient( rgba(1, 1, 1, 0.5), rgb(6, 60, 154));
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
 
-  .btn-success {
-  }
-  
- 
+.Timer {
+    font-size: 20px;
+    background-color: rgba(6, 60, 154, 0.8);
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
 
+ol {
+    font-size: 14px;
+    background-color: white;
+    color: rgb(6, 60, 154);
+    border: 1px solid white;
+    max-width: 200px;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.btn-success {}
