@@ -1,5 +1,5 @@
 .container-fluid {
-    background: linear-gradient( rgba(1, 1, 1, 0.6), rgba(1, 1, 1, 0.6)), url("http://wallpapercave.com/wp/ZEo5kVT.png");
+    background: linear-gradient( rgba(1, 1, 1, 0.4), rgba(1, 1, 1, 0.4)), url("http://wallpapercave.com/wp/ZEo5kVT.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,10 +23,16 @@
   display: none;
 }
 
-.display-finished{
-  margin-top: 100px;
-}
 
+.high-score-header{
+    color: white;
+}
+.start-test{
+    margin: auto;
+}
+.test-end{
+    color: white;
+}
 
 .btn-default {
     width: 600px;
@@ -46,14 +52,26 @@
     border-radius: 10px;
     border: 3px solid white;
 }
+.form-control{
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 50%;
+}
 
 ol {
     font-size: 14px;
-    background-color: white;
-    color: rgb(6, 60, 154);
-    border: 1px solid white;
-    max-width: 200px;
+    background-color: rgb(6, 105, 162);
+    color: white;  
+    max-width: 250px;
     font-size: 14px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+
+
 }
 
 h1 {

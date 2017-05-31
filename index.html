@@ -14,19 +14,36 @@
 
 <body>
     <div class="container-fluid">
+        <div class="row">
+            <div class="col-12-md float-left" id="scores">
+                <p>
+                    <ol class="float-left" id="scorelist">
+                        <h1 class="high-score-header float-left">High Scores</h1>
+                    </ol>
+                </p>
+            </div>
+        </div>
         <div class="header">
             <h1 class="Title"> Front end developer interview questions</h1>
             <div class="row">
-                <div class="col-xs-offset-5 col-xs-2">
+                <div class="col-12-md text-center">
                     <button class="btn btn-success text-center start-test">Begin Test</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12-md">
+                <div class="test-end text-center hide">
+                    <h3><--- Check to see if you placed in the ten! </h3>
+                    <h3>Thank you for taking my quiz! To retake refresh the page.</h3>
                 </div>
             </div>
         </div>
         <div class="row display-finished hide text-center">
             <div class="col-12-md">
-            <h1>Test complete press done to post score!</h1>
+                <h1>Enter name and press done to sumbit score!</h1>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter name to display">
                 <div class="col-12-md display-score"></div>
-                
                 <div class="finished btn btn-success">Done!</div>
             </div>
         </div>
@@ -58,17 +75,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12-md float-left" id="scores">
-                <p>
-                    <button class="btn-success high-scores">View high scores</button>
-                    <ol class="float-left" id="scorelist">
-                    </ol>
-                </p>
-            </div>
-        </div>
-    </div>
-    <script src="triva.js"></script>
+        <script src="triva.js"></script>
 </body>
 
 </html>

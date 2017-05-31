@@ -56,7 +56,7 @@ $(document).ready(function() {
             })
 
         }
-        for (var i = 0; i <= 10; i++) {
+        for (var i = 0; i < 10; i++) {
             
 
             var send = JSON.stringify(newArray[i]);
@@ -81,7 +81,7 @@ $(document).ready(function() {
 
     // create an array of questions & answers
     var newScore;
-    var name = 'brad';
+    
     var incorrect = 0;
     var correct = 0;
     var selectQuestion = 0;
@@ -168,12 +168,12 @@ $(document).ready(function() {
 
             },
             question9 = {
-                question: " ______ tag is an extension to HTML that can enclose any number of JavaScript ",
-                answer1: "<SCRIPT>",
-                answer2: "<BODY>",
-                answer3: "<HEAD>",
-                answer4: "<TITLE>",
-                correctAnswer: "<SCRIPT>"
+                question: "Choose the client-side JavaScript object?",
+                answer1: "Database",
+                answer2: "Cursor",
+                answer3: "Client",
+                answer4: "FileUpLoad",
+                correctAnswer: "FileUpLoad"
 
             },
             question10 = {
@@ -188,230 +188,101 @@ $(document).ready(function() {
         ],
         questionsSet2 = [
             question1 = {
-                question: "Who is your favorite super hero?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
+                question: "Which of the following is not considered a JavaScript operator?",
+                answer1: "new",
+                answer2: "this",
+                answer3: "delete",
+                answer4: "typeof",
+                correctAnswer: "this"
 
             },
-            question2 = {
-                question: "How many dinos in a mb?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
+         question2 = {
+                question: " ______method evaluates a string of JavaScript code in the context of the specified object.",
+                answer1: "Eval",
+                answer2: "ParseInt",
+                answer3: "ParseFloat",
+                answer4: "Efloat",
+                correctAnswer: "Eval"
 
             },
-            question3 = {
-                question: "What is your favorite football team ",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
+             question3 = {
+                question: "JavaScript is interpreted by _________",
+                answer1: "Client",
+                answer2: "Server",
+                answer3: "Object",
+                answer4: "None of the above",
+                correctAnswer: "Client"
 
             },
-            question4 = {
-                question: "How many people come from earth",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
+             question4 = {
+                question: "Using _______ statement is how you test for a specific condition.",
+                answer1: "Select",
+                answer2: "If",
+                answer3: "Switch",
+                answer4: "For",
+                correctAnswer: "If"
 
             },
-            question1 = {
-                question: "So many questions wtf?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
+             question5 = {
+                question: "How to create a Date object in JavaScript?",
+                answer1: "dateObjectName = new Date([parameters])",
+                answer2: "dateObjectName.new Date([parameters])",
+                answer3: "dateObjectName := new Date([parameters])",
+                answer4: "dateObjectName Date([parameters])",
+                correctAnswer: "dateObjectName = new Date([parameters])"
 
             },
-            question2 = {
-                question: "Do you like chicken?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
+             question6 = {
+                question: "The _______ method of an Array object adds and/or removes elements from an array.",
+                answer1: "Reverse",
+                answer2: "Shift",
+                answer3: "Slice",
+                answer4: "Splice",
+                correctAnswer: "Splice"
 
             },
-            question3 = {
-                question: "Wtf boy?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
+             question7 = {
+                question: "To set up the window to capture all Click events, we use which of the following statement?",
+                answer1: "window.captureEvents(Event.CLICK)",
+                answer2: "window.handleEvents (Event.CLICK)",
+                answer3: "window.routeEvents(Event.CLICK )",
+                answer4: "window.raiseEvents(Event.CLICK )",
+                correctAnswer: "window.captureEvents(Event.CLICK)"
 
             },
-            question4 = {
-                question: "dam huh?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
+             question8 = {
+                question: "____________ is the tainted property of a window object.",
+                answer1: "Pathname",
+                answer2: "Protocol",
+                answer3: "Defaultstatus",
+                answer4: "Host",
+                correctAnswer: "Defaultstatus"
 
             },
-            question1 = {
-                question: "So many questions wtf?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
+             question9 = {
+                question: "To enable data tainting, the end user sets the _________ environment variable.",
+                answer1: "ENABLE_TAINT",
+                answer2: "MS_ENABLE_TAINT",
+                answer3: "NS_ENABLE_TAINT",
+                answer4: "ENABLE_TAINT_NS",
+                correctAnswer: "NS_ENABLE_TAINT"
 
             },
-            question2 = {
-                question: "Do you like chicken?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
+             question10 = {
+                question: "In JavaScript, _________ is an object of the target language data type that encloses an object of the source language.",
+                answer1: "a wrapper",
+                answer2: "a link",
+                answer3: "a cursor",
+                answer4: "a form",
+                correctAnswer: "a wrapper"
 
             },
-            question3 = {
-                question: "Wtf boy?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
-
-            },
-            question4 = {
-                question: "dam huh?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
-
-            }
-
-
-
-        ],
-        questionsSet3 = [
-            question1 = {
-                question: "So many questions wtf?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
-
-            },
-            question2 = {
-                question: "Do you like chicken?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
-
-            },
-            question3 = {
-                question: "Wtf boy?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
-
-            },
-            question4 = {
-                question: "dam huh?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
-
-            },
-            question1 = {
-                question: "So many questions wtf?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
-
-            },
-            question2 = {
-                question: "Do you like chicken?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
-
-            },
-            question3 = {
-                question: "Wtf boy?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
-
-            },
-            question4 = {
-                question: "dam huh?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
-
-            },
-            question1 = {
-                question: "So many questions wtf?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
-
-            },
-            question2 = {
-                question: "Do you like chicken?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
-
-            },
-            question3 = {
-                question: "Wtf boy?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
-
-            },
-            question4 = {
-                question: "dam huh?",
-                answer1: 21,
-                answer2: 13,
-                answer3: 18,
-                answer4: 22,
-                correctAnswer: 21
-
-            }
+   
 
 
 
         ]
+        
     ];
 
     selectQuestions = allQuestions[Math.floor(Math.random() * allQuestions.length)];
@@ -527,9 +398,12 @@ $(document).ready(function() {
     $('.finished').on('click', event => {
         event.preventDefault();
         var percentCorrect = correct / 10 * 100;
+        var name = $("#formGroupExampleInput").val().trim();
         console.log(percentCorrect);
+        $(".display-finished").addClass("hide");
+        $(".test-end").removeClass("hide");
         var data = {
-            name: "brad",
+            name: name,
             rightAnswer: percentCorrect,
             wrongAnswers: incorrect
         }
